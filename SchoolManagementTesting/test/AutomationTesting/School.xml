@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SchoolManagementTesting" parallel="false">
+    <test name="Signup">
+        <classes>
+            <class name="AutomationTesting.StudentRegistationForm"></class>
+        </classes>
+    </test>
+
+    <test name="Login correct">
+        <classes>
+            <class name="AutomationTesting.LogIN"/>
+        </classes>
+    </test>
+    
+    <test name="Marks Entry Eleven Science">
+        <classes>
+            <class name="AutomationTesting.MarksEntryElevenS"/>
+        </classes>
+    </test>
+    
+    <test name="Marks Entry Eleven Arts">
+        <classes>
+            <class name="AutomationTesting.MarksEntryElevenA"/>
+        </classes>
+    </test>
+    
+    <test name="Marks Entry Eleven Commerce">
+        <classes>
+            <class name="AutomationTesting.MarksEntryElevenC"/>
+        </classes>
+    </test>
+    
+    <test name="Mark_View_Update">
+        <classes>
+            <class name="AutomationTesting.MarkView"/>
+        </classes>
+    </test>
+
+    <test name="Student_bio_view_update">
+        <classes>
+            <class name="AutomationTesting.StudentBioData"/>
+        </classes>
+
+    </test>
+    <test name="Result">
+        <classes>
+            <class name="AutomationTesting.ResultViewing"/>
+        </classes>
+    </test>
+
+    <test name="Logout">
+        <classes>
+            <class name="AutomationTesting.Logout"/>
+        </classes>
+    </test>
+    
+</suite>
